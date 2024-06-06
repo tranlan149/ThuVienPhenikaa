@@ -1,0 +1,133 @@
+.container-1{
+    background-color:var(--color2);
+    padding-bottom:20px;
+}
+.container-1 .main-1 .box-1{
+    background-color:var(--color1);
+    width:250px;
+    border-radius: 10px;
+    text-align:center;
+}
+.main-2 .logo1{
+    background-color: #fff;
+    width:240px;
+    height:auto;
+    text-align: center;
+    border-radius: 5px;
+
+}
+.box-3{
+    background-color:#FFE8A3;
+    width: 230px;
+    text-align: center;
+    border-radius:5px;
+    margin-bottom:10px;
+    
+}
+.box-3:hover{
+    background-color:#1ED250;
+}
+.main-5{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left:50px;
+    margin-right:50px;
+    background-color:#BDE3FF;
+    height:fit-content;
+    flex-wrap:wrap;
+    
+}
+.box-4{
+    padding-top: 5px;
+}
+.box-4 a{
+    background-color:#FFC7C2;
+    display:inline-flex;
+    justify-content: center;
+    align-items: center;
+    height:30px;
+    width:150px;
+    border-radius:5px;
+    text-decoration: none;
+    color:#000;
+}
+.main-5::before{
+    content:"Tiện ích";
+    background-color:#fff;
+    border-radius:50%;
+    position: relative;
+    left:-80px;
+    height:60px;
+    width:50px;
+    display:inline-flex;
+    justify-content:center;
+    align-items: center;
+    text-align:center;
+
+}
+.container-3{
+    padding-top:30px;
+    padding-bottom:30px;
+}
+.container-4{
+    background-color:#FFF7F6;
+    padding: 50px;
+    
+
+}
+.box-6 p{
+    color:#000;
+    border:1px solid #000;
+    text-align: center;
+    height:50px;
+    width:250px;
+    display:inline-flex;
+    justify-content:center;
+    align-items: center;
+}
+.box-7::before{
+    content:"<";
+    font-weight:bold;
+    width:40px;
+    height:40px;
+    margin-right:20px;
+    border-radius:100%;
+    background-color:#F26725;
+    display:inline-flex;
+    justify-content: center;
+    align-items: center;
+    color:#d0c2ff;
+    
+}
+.box-7::after{
+    content:">";
+    font-weight:bold;
+    width:40px;
+    height:40px;
+    margin-left:20px;
+    border-radius:100%;
+    background-color:#F26725;
+    display:inline-flex;
+    justify-content: center;
+    align-items: center;
+    color:#d0c2ff;
+}
+.container-5{
+    background-color:#252429;
+    padding:60px;
+}
+.main-13 .box-13 p::before{
+    content:"━";
+    font-weight:bold;
+    color:#F26725;
+    margin-right:10px;
+}
+.main-13 .box-14 p::before{
+    content:"━";
+    font-weight:bold;
+    color:#F26725;
+    margin-right:10px;
+}
+
+   
